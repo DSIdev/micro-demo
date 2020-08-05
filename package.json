@@ -1,0 +1,18 @@
+{
+  "name": "microservice-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./service-a && nodemon ./service-b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.1.1"
+  }
+}
